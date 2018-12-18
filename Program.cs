@@ -22,7 +22,7 @@ namespace TabEx05
                 Console.WriteLine(number);
             }
 
-            numbers.Insert(0,1);
+            numbers.Insert(0,1); // (endroit voulu (indice), chiffre voulu (valeur))
             numbers.Add(7);
 
             foreach (int number in numbers)
